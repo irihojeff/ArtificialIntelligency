@@ -39,4 +39,4 @@ if response.status_code == 200:
     print("\n🐥 Duck Assistant says:")
     print(answer)
 else:
-    print(f"Error {response.status_code}: {response.text}")
+    print(f"Error {response.status_code}: {response.text}") 
